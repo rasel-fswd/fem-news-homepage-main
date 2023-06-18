@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | News homepage</title>
+    <link rel="stylesheet" href="build/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container wrapper">
+        <img class="header__logo" src="/assets/images/logo.svg" alt="" />
+        <img class="header__menu" src="/assets/images/icon-menu.svg" alt="">
+        <nav class="nav">
+          <ul class="header__link">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">New</a></li>
+            <li><a href="#">Popular</a></li>
+            <li><a href="#">Trending</a></li>
+            <li><a href="#">Categories</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main class="hero">
+      <div class="hero__container wrapper">
+        <div class="hero__grid-container">
+          <!-- <img
+              class="hero__image"
+              src="/assets/images/image-web-3-desktop.jpg"
+              alt="hero image"
+            /> -->
+
+          <picture class="hero__image">
+            <source
+              media="(max-width:600px)"
+              srcset="/assets/images/image-web-3-mobile.jpg"
+            />
+            <img src="/assets/images/image-web-3-desktop.jpg" alt="Flowers" />
+          </picture>
+
+          <aside class="hero__features">
+            <h2 class="hero__features-heading">New</h2>
+            <div class="hero__features-container">
+              <div class="hero__features-content">
+                <h4 class="hero__features-title">Hydrogen VS Electric Cars</h4>
+                <p class="hero__features-text">
+                  Will hydrogen-fueled cars ever catch up to EVs?
+                </p>
+              </div>
+            </div>
+            <div class="hero__features-container">
+              <div class="hero__features-content">
+                <h4 class="hero__features-title">
+                  The Downsides of AI Artistry
+                </h4>
+                <p class="hero__features-text">
+                  What are the possible adverse effects of on-demand AI image
+                  generation?
+                </p>
+              </div>
+            </div>
+            <div class="hero__features-container">
+              <div class="hero__features-content">
+                <h4 class="hero__features-title">Is VC Funding Drying Up?</h4>
+                <p class="hero__features-text">
+                  Private funding by VC firms is down 50% YOY. We tay ke a look
+                  at what that means.
+                </p>
+              </div>
+            </div>
+          </aside>
+          <div class="hero__action">
+            <h1 class="hero__action-title">The Bright Future of Web 3.0?</h1>
+            <div class="hero__action-description">
+              <p class="hero__action-text">
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+              <a href="#" class="hero__action-link">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- Home New Popular Trending Categories The Bright Future of Web 3.0? We dive
+    into the next evolution of the web that claims to put the power of the
+    platforms back into the hands of the people. But is it really fulfilling its
+    promise? Read more New Hydrogen VS Electric Cars Will hydrogen-fueled cars
+    ever catch up to EVs? The Downsides of AI Artistr What are the possible
+    adverse effects of on-demand AI image generation? Is VC Funding Drying Up?
+    Private funding by VC firms is down 50% YOY. We tay ke a look at what that
+    means. 01 Reviving Retro PCs What happens when old PCs are given modern
+    upgrades? 02 Top 10 Laptops of 2022 Our best picks for various needs and
+    budgets. 03 The Growth of Gaming How the pandemic has sparked fresh
+    opportunities. -->
+
+    <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+  </body>
+</html>
