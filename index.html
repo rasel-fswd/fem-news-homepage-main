@@ -49,39 +49,41 @@
     <main class="hero wrapper">
       <section class="hero__container">
         <div class="hero__grid-container">
-          <picture class="hero__image">
-            <source
-              media="(max-width:600px)"
-              srcset="/assets/images/image-web-3-mobile.jpg"
-            />
-            <img src="/assets/images/image-web-3-desktop.jpg" alt="Flowers" />
-          </picture>
+          <div class="hero__image-container">
+            <picture class="hero__image">
+              <source
+                media="(max-width:600px)"
+                srcset="/assets/images/image-web-3-mobile.jpg"
+              />
+              <img src="/assets/images/image-web-3-desktop.jpg" alt="Flowers" width="1406" height="600"/>
+            </picture>
+          </div>
 
           <aside class="hero__features">
-            <h2 class="hero__features-heading">New</h2>
-            <div class="hero__features-container">
-              <div class="hero__features-content">
-                <h4 class="hero__features-title">Hydrogen VS Electric Cars</h4>
-                <p class="hero__features-text">
+            <h2 class="hero__feature-heading">New</h2>
+            <div class="hero__feature-container">
+              <div class="hero__feature-content">
+                <h4 class="hero__feature-title">Hydrogen VS Electric Cars</h4>
+                <p class="hero__feature-text">
                   Will hydrogen-fueled cars ever catch up to EVs?
                 </p>
               </div>
             </div>
-            <div class="hero__features-container">
-              <div class="hero__features-content">
-                <h4 class="hero__features-title">
+            <div class="hero__feature-container">
+              <div class="hero__feature-content">
+                <h4 class="hero__feature-title">
                   The Downsides of AI Artistry
                 </h4>
-                <p class="hero__features-text">
+                <p class="hero__feature-text">
                   What are the possible adverse effects of on-demand AI image
                   generation?
                 </p>
               </div>
             </div>
-            <div class="hero__features-container">
-              <div class="hero__features-content">
-                <h4 class="hero__features-title">Is VC Funding Drying Up?</h4>
-                <p class="hero__features-text">
+            <div class="hero__feature-container">
+              <div class="hero__feature-content">
+                <h4 class="hero__feature-title">Is VC Funding Drying Up?</h4>
+                <p class="hero__feature-text">
                   Private funding by VC firms is down 50% YOY. We tay ke a look
                   at what that means.
                 </p>
@@ -103,7 +105,9 @@
       </section>
       <section class="promotional-posts">
         <div class="promotional-posts__post">
-          <img src="/assets/images/image-retro-pcs.jpg" alt="" />
+          <div class="image-container">
+            <img src="/assets/images/image-retro-pcs.jpg" alt="" />
+          </div>
           <div class="promotional-posts__description">
             <h3>01</h3>
             <h4>Reviving Retro PCs</h4>
@@ -111,7 +115,9 @@
           </div>
         </div>
         <div class="promotional-posts__post">
-          <img src="/assets/images/image-top-laptops.jpg" alt="" />
+          <div class="image-container">
+            <img src="/assets/images/image-top-laptops.jpg" alt="" />
+          </div>
           <div class="promotional-posts__description">
             <h3>02</h3>
             <h4>Top 10 Laptops of 2022</h4>
@@ -119,7 +125,9 @@
           </div>
         </div>
         <div class="promotional-posts__post">
-          <img src="/assets/images/image-gaming-growth.jpg" alt="" />
+          <div class="image-container">
+            <img src="/assets/images/image-gaming-growth.jpg" alt="" />
+          </div>
           <div class="promotional-posts__description">
             <h3>01</h3>
             <h4>The Growth of Gaming</h4>
