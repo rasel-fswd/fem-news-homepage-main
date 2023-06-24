@@ -18,22 +18,26 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <header class="header">
       <div class="header__container wrapper">
         <img class="header__logo" src="/assets/images/logo.svg" alt="" />
-        <img class="header__menu" src="/assets/images/icon-menu.svg" alt="" />
+        <img
+          class="header__menu"
+          id="menu"
+          src="/assets/images/icon-menu.svg"
+          alt=""
+          
+        />
+        <img
+          class="header__menu hidden"
+          id="menu-close"
+          src="/assets/images/icon-menu-close.svg"
+          alt=""
+          
+        />
+
         <nav class="nav">
           <ul class="header__link">
             <li><a href="#">Home</a></li>
@@ -55,7 +59,12 @@
                 media="(max-width:600px)"
                 srcset="/assets/images/image-web-3-mobile.jpg"
               />
-              <img src="/assets/images/image-web-3-desktop.jpg" alt="Flowers" width="1406" height="600"/>
+              <img
+                src="/assets/images/image-web-3-desktop.jpg"
+                alt="Flowers"
+                width="1406"
+                height="600"
+              />
             </picture>
           </div>
 
@@ -136,5 +145,7 @@
         </div>
       </section>
     </main>
+
+    <script src="/script.js"></script>
   </body>
 </html>
